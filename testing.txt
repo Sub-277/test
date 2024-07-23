@@ -158,3 +158,59 @@ Date:   Tue Jul 23 13:09:18 2024 +0530
 
 win10@cp-01 MINGW64 ~/Desktop/test (main)
 $
+
+
+
+
+win10@cp-01 MINGW64 ~/Desktop/Project101 (main)
+$ git checkout -b Subarna
+Switched to a new branch 'Subarna'
+
+win10@cp-01 MINGW64 ~/Desktop/Project101 (Subarna)
+$ git branch
+* Subarna
+  main
+
+win10@cp-01 MINGW64 ~/Desktop/Project101 (Subarna)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+win10@cp-01 MINGW64 ~/Desktop/Project101 (main)
+$ ls
+information.pdf  newtest.txt
+
+win10@cp-01 MINGW64 ~/Desktop/Project101 (main)
+$ git checkout Subarna
+Switched to branch 'Subarna'
+
+win10@cp-01 MINGW64 ~/Desktop/Project101 (Subarna)
+$ ls
+information.pdf  newtest.txt
+
+win10@cp-01 MINGW64 ~/Desktop/Project101 (Subarna)
+$ git add -A
+
+win10@cp-01 MINGW64 ~/Desktop/Project101 (Subarna)
+$ git commit -m "Added: Added a new text file newtest"
+[Subarna 9a3fb57] Added: Added a new text file newtest
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 newtest.txt
+
+win10@cp-01 MINGW64 ~/Desktop/Project101 (Subarna)
+$ git push origin Subarna
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 280 bytes | 280.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Subarna' on GitHub by visiting:
+remote:      https://github.com/Sub-277/Project101/pull/new/Subarna
+remote:
+To https://github.com/Sub-277/Project101.git
+ * [new branch]      Subarna -> Subarna
+
+win10@cp-01 MINGW64 ~/Desktop/Project101 (Subarna)
+$ https://github.com/Sub-277/Project101.githttps://github.com/Sub-277/Project101.githttps://github.com/Sub-277/Project101.githttps://github.com/Sub-277/Project101.git
